@@ -1,13 +1,38 @@
+package exam.processing.system.model;
+
 import java.util.*;
 import java.time.LocalDate;
 
-class Student {
+public class Student {
+
     String name;
     String id;
     Map<String, Integer> subjects = new LinkedHashMap<>();
     double average;
     String grade;
     String recommendation;
+
+    // inside Student.java
+    public Map<String, Integer> getSubjects() {
+        return subjects;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
 
     public void calculateAverageAndGrade() {
         int total = 0;
