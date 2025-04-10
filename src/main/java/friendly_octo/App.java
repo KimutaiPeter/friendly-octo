@@ -31,6 +31,7 @@ public final class App {
             terminal.flush();
 
             if(selected_user==0){
+                System.out.println("Please Choose the module");
                 for (int i = 0; i < module.length; i++) {
                     if (i == selected_option) {
                         System.out.println("> \u001B[32m" + module[i] + "\u001B[0m"); // Green highlight
@@ -39,6 +40,7 @@ public final class App {
                     }
                 }
             }else if(selected_user==1){
+                System.out.println("Lecturers module: please choose an activity to continue");
                 for (int i = 0; i < module.length; i++) {
                     if (i == selected_option) {
                         System.out.println("> \u001B[32m" + lecturer_module[i] + "\u001B[0m"); // Green highlight
@@ -47,6 +49,7 @@ public final class App {
                     }
                 }
             }else if(selected_user==2){
+                System.out.println("Students module: please choose an activity to continue");
                 for (int i = 0; i < module.length; i++) {
                     if (i == selected_option) {
                         System.out.println("> \u001B[32m" + student_module[i] + "\u001B[0m"); // Green highlight
