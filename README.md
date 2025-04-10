@@ -36,13 +36,13 @@ This is a simple Java console application that processes examination results for
 ## 🛠 How to Run
 
 1. **Clone or download** the project files.
-2.    ```bash
+    ```bash
      git clone https://github.com/KimutaiPeter/friendly-octo.git
-3. Open a terminal or command prompt in the project directory.
-4. Compile the program:
+2. Open a terminal or command prompt in the project directory.
+3. Compile the program:
 
    ```bash
    mvn compile
-5. Run the program:
+4. Run the program:
       ```bash
    mvn exec:java
