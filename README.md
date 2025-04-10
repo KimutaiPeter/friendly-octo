@@ -28,11 +28,21 @@ This is a simple Java console application that processes examination results for
 | 40 – 49      | D      | Poor          |
 | Below 40     | F      | Very Poor     |
 
+## 📋 Requiremnts
+- JDK
+- JRE
+- Maven
+
 ## 🛠 How to Run
 
 1. **Clone or download** the project files.
-2. Open a terminal or command prompt in the project directory.
-3. Compile the program:
+2.    ```bash
+     git clone https://github.com/KimutaiPeter/friendly-octo.git
+3. Open a terminal or command prompt in the project directory.
+4. Compile the program:
 
    ```bash
-   javac UniversityExamProcessor.java
+   mvn compile
+5. Run the program:
+      ```bash
+   mvn exec:java
