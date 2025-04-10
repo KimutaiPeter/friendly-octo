@@ -99,7 +99,6 @@ public class Utility {
         }
 
         System.out.println("Press any key to continue");
-        sd.nextLine();
         
 
     }
