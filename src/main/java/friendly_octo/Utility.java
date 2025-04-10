@@ -71,7 +71,6 @@ public class Utility {
         for (Student s : students) {
             s.displayReport();
         }
-        sc.close();
         System.out.println("Press any key to continue");
         System.in.read();
     }
